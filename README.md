@@ -1,0 +1,3 @@
+**Sentiment Analysis**
+
+This project explores sentiment analysis of IMDB movie reviews using Logistic Regression (LR), Support VectorMachines (SVM), and Long Short-Term Memory (LSTM) networks. Models are first trained on labelled data andthen compared against LSTM trained on VADER-generated sentiment labels. Results show LSTM outperforms LRand SVM, leveraging its ability to capture sequential text dependencies. While VADER provides a viable alternative for generating sentiment labels, its use results in lower accuracy compared to labelled data.
